@@ -5,3 +5,4 @@ export function transformData(data){
             birthday: new Date(birthday).toDateString()
         }});
 }
+

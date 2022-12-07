@@ -1,22 +1,15 @@
 {
   "name": "javascriptmas2022",
   "version": "1.0.0",
-  "description": "Programming challenges from scrimba.com JavaScriptmas 2022",
+  "description": "Programming challenges from scrimba.com **JavaScriptmas 2022**.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "vitest --run --reporter verbose"
+    "test": "vitest --run --environment jsdom"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amandarfernandes/javascriptmas2022.git"
   },
-  "keywords": [
-    "javascriptmas",
-    "2022"
-   ],
   "author": "Amanda Fernandes",
   "license": "ISC",
   "bugs": {
@@ -24,6 +17,8 @@
   },
   "homepage": "https://github.com/amandarfernandes/javascriptmas2022#readme",
   "devDependencies": {
-    "vitest": "^0.25.3"
+    "@types/jsdom": "^20.0.1",
+    "jsdom": "^20.0.3",
+    "vitest": "^0.25.4"
   }
 }

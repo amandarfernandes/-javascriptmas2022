@@ -1,5 +1,5 @@
-import { transformData } from "../challenge/day02-private-data-farm";
-import userData from '../data/day02.js';
+import { transformData } from "./data_farm.js";
+import userData from './data';
 import { it, expect } from 'vitest';
 
 it("Should return an array of objects",()=>{

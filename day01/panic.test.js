@@ -1,4 +1,4 @@
-import { panic } from "../challenge/day01-panic";
+import { panic } from "./panic.js";
 import { it, expect } from 'vitest';
 
 it("Should return word in all uppercase with !",()=>{
